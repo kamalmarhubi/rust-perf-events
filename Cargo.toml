@@ -3,5 +3,14 @@ name = "perf_events"
 version = "0.0.0"
 authors = ["Kamal Marhubi <kamal@marhubi.com>"]
 license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/kamalmarhubi/rust-perf-events"
+description = """
+Rust bindings to the Linux perf_events performance analysis subsystem.
+"""
+
+include = ["src/**/*.rs", "Cargo.toml", "LICENSE", "README.md"]
+
+publish = false
 
 [dependencies]
